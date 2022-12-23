@@ -43,8 +43,11 @@ import com.squareup.picasso.Picasso;
         readNewsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
+//                Intent i = new Intent(Intent.ACTION_VIEW);
+//                i.setData(Uri.parse(url));
+//                startActivity(i);
+                Intent i = new Intent(NewsDetailActivity.this,WebActivity.class);
+                i.putExtra("url",url);
                 startActivity(i);
 
             }
