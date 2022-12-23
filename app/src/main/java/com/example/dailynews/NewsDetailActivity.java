@@ -43,9 +43,13 @@ import com.squareup.picasso.Picasso;
         readNewsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                //for opening the website link in browser
 //                Intent i = new Intent(Intent.ACTION_VIEW);
 //                i.setData(Uri.parse(url));
 //                startActivity(i);
+
+                //for loading the website inside the app
                 Intent i = new Intent(NewsDetailActivity.this,WebActivity.class);
                 i.putExtra("url",url);
                 startActivity(i);
