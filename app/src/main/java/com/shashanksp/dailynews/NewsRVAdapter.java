@@ -1,4 +1,4 @@
-package com.example.dailynews;
+package com.shashanksp.dailynews;
 
 import android.content.Context;
 import android.content.Intent;

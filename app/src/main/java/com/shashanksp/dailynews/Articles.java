@@ -1,4 +1,4 @@
-package com.example.dailynews;
+package com.shashanksp.dailynews;
 
 public class Articles {
 

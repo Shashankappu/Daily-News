@@ -1,4 +1,4 @@
-package com.example.dailynews;
+package com.shashanksp.dailynews;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

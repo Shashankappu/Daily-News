@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/mainbg"
     tools:context=".SplashActivity">
 
     <ImageView
@@ -13,14 +13,21 @@
         android:layout_height="150dp"
         android:src="@drawable/worldnews"
         android:layout_centerInParent="true"/>
-    <TextView
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Loading...."-->
+<!--        android:textSize="32sp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:layout_below="@+id/IVLOGO"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:textColor="@color/white"/>-->
+    <ProgressBar
+        android:id="@+id/idPBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Loading...."
-        android:textSize="32sp"
-        android:layout_marginTop="25dp"
-        android:layout_below="@+id/IVLOGO"
         android:layout_centerInParent="true"
-        android:textColor="@color/black"/>
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/IVLOGO"/>
 
 </RelativeLayout>
